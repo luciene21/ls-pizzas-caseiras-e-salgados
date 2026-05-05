@@ -15,6 +15,7 @@
 </head>
 
 <body>
+  <a class="pular-conteudo" href="#conteudo-principal">Pular para o conteúdo principal</a>
   <header class="topo">
     <div class="container nav-wrapper">
       <a href="index.html" class="logo">
@@ -45,28 +46,36 @@
     </div>
   </header>
 
-  <main>
-    <section class="hero">
+  <main id="conteudo-principal">
+    <section class="hero" aria-labelledby="hero-titulo">
       <div class="container hero-content">
         <div class="hero-texto">
           <p class="hero-frase">Feito com carinho, para momentos especiais!</p>
-          <h1>Sabor que você <span>sente em</span> cada mordida!</h1>
+          <h1 id="hero-titulo">Sabor que você <span>sente em</span> cada mordida!</h1>
           <p>Esfihas, pizzas, pizzas brotinhos e pães de pizza fresquinhos, feitos com ingredientes selecionados e muito
             amor.</p>
           <a class="btn-whatsapp" href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer"><i
               class="fa-brands fa-whatsapp icone-whatsapp" aria-hidden="true"></i>Peça pelo WhatsApp</a>
         </div>
-        <div class="hero-art"></div>
+        <figure class="hero-art">
+          <img src="imagens/pizzas-montagem.png" width="1200" height="900"
+            alt="Montagem com três pizzas brotinho variadas na parte superior e, abaixo, pizza grande de frango com requeijão cremoso em formato de treliça e azeitonas."
+            decoding="async" fetchpriority="high">
+        </figure>
       </div>
     </section>
 
-    <section class="produtos" id="cardapio">
+    <section class="produtos" id="cardapio" aria-labelledby="titulo-produtos">
       <div class="container">
         <p class="secao-tag">Nosso Cardápio</p>
-        <h2>Nossos Produtos</h2>
+        <h2 id="titulo-produtos">Nossos Produtos</h2>
         <div class="cards">
           <article class="card">
-            <div class="card-img img-esfiha"></div>
+            <figure class="card-media">
+              <img src="imagens/esfirras.png" width="900" height="900"
+                alt="Três esfirras triangulares douradas com casca brilhante, decoradas com coentro, em prato branco sobre mesa de madeira."
+                loading="lazy" decoding="async">
+            </figure>
             <div class="card-corpo">
               <h3>Esfirra</h3>
               <p>Massa macia e recheio suculento. Vários sabores para você escolher.</p>
@@ -75,7 +84,11 @@
           </article>
 
           <article class="card">
-            <div class="card-img img-pizza"></div>
+            <figure class="card-media">
+              <img src="imagens/pizzas-montagem.png" width="1200" height="900"
+                alt="Pizza grande de frango com requeijão cremoso em treliça e azeitonas — referência visual da pizza tradicional."
+                loading="lazy" decoding="async">
+            </figure>
             <div class="card-corpo">
               <h3>Pizza</h3>
               <p>Pizzas deliciosas com ingredientes de qualidade e muito sabor.</p>
@@ -84,7 +97,10 @@
           </article>
 
           <article class="card">
-            <div class="card-img img-brotinho"></div>
+            <figure class="card-media">
+              <img src="imagens/pizzas-montagem.png" width="1200" height="900"
+                alt="Pizza brotinho individual com frango desfiado, milho e azeitonas." loading="lazy" decoding="async">
+            </figure>
             <div class="card-corpo">
               <h3>Brotinho</h3>
               <p>Perfeito para qualquer hora! Recheado e assado na medida certa.</p>
@@ -93,7 +109,11 @@
           </article>
 
           <article class="card">
-            <div class="card-img img-pao"></div>
+            <figure class="card-media">
+              <img src="imagens/pizzas-montagem.png" width="1200" height="900"
+                alt="Close de pizza com cobertura cremosa de requeijão em treliça, queijo derretido e azeitonas, em referência visual ao pão de pizza recheado."
+                loading="lazy" decoding="async">
+            </figure>
             <div class="card-corpo">
               <h3>Pão de Pizza</h3>
               <p>Massa fofinha com cobertura irresistível, uma delícia que todo mundo ama.</p>
@@ -105,9 +125,9 @@
       </div>
     </section>
 
-    <section class="diferenciais">
+    <section class="diferenciais" aria-labelledby="titulo-diferenciais">
       <div class="container">
-        <h2>Por que escolher a gente?</h2>
+        <h2 id="titulo-diferenciais">Por que escolher a gente?</h2>
         <div class="itens">
           <article>
             <h3>Ingredientes Selecionados</h3>
