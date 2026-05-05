@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardápio | Sabor & Cia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="../estilos/style.css">
+</head>
+<body>
+  <header class="topo">
+    <div class="container nav-wrapper">
+      <a href="../index.html" class="logo">
+        <span class="logo-script">Ls pizzas caseira e salgados</span>
+        <span class="logo-sub">LANCHES E SALGADOS</span>
+      </a>
+
+      <button class="hamburger" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="menuPrincipal">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="menu" id="menuPrincipal">
+        <ul>
+          <li><a href="../index.html">Início</a></li>
+          <li><a href="cardapio.html">Cardápio</a></li>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+          <li><a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">Contato</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn-whatsapp desktop-only" href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-whatsapp icone-whatsapp" aria-hidden="true"></i>
+        Peça pelo WhatsApp
+      </a>
+    </div>
+  </header>
+
+  <main class="produtos">
+    <div class="container">
+      <a class="btn-voltar" href="../index.html" data-back-button>
+        <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
+        Voltar
+      </a>
+      <p class="secao-tag">Nosso Cardápio</p>
+      <h2>Todas as Opções</h2>
+      <div class="cards">
+        <article class="card">
+          <div class="card-img img-esfiha"></div>
+          <div class="card-corpo">
+            <h3>Esfirra Aberta</h3>
+            <p>Carne, queijo, frango, calabresa e opções especiais.</p>
+            <strong>A partir de R$ 5,00</strong>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-img img-pizza"></div>
+          <div class="card-corpo">
+            <h3>Pizza Grande</h3>
+            <p>Sabores tradicionais e especiais com massa artesanal.</p>
+            <strong>A partir de R$ 25,00</strong>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-img img-brotinho"></div>
+          <div class="card-corpo">
+            <h3>Brotinho</h3>
+            <p>Ideal para lanche rápido, com muito recheio.</p>
+            <strong>A partir de R$ 6,00</strong>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-img img-pao"></div>
+          <div class="card-corpo">
+            <h3>Pão de Pizza</h3>
+            <p>Perfeito para compartilhar e acompanhar seu pedido.</p>
+            <strong>A partir de R$ 7,00</strong>
+          </div>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <script src="../javascript/menu.js"></script>
+</body>
+</html>

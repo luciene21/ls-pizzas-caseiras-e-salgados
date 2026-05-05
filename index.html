@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sabor & Cia | Lanches e Salgados</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Pacifico&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="estilos/style.css">
+</head>
+
+<body>
+  <header class="topo">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="logo">
+        <span class="logo-script">Ls pizzas caseira e salgados</span>
+        <span class="logo-sub">LANCHES E SALGADOS</span>
+      </a>
+
+      <button class="hamburger" id="menuToggle" aria-label="Abrir menu" aria-expanded="false"
+        aria-controls="menuPrincipal">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="menu" id="menuPrincipal">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="paginas/cardapio.html">Cardápio</a></li>
+          <li><a href="paginas/sobre.html">Sobre Nós</a></li>
+          <li><a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">Contato</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn-whatsapp desktop-only" href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-whatsapp icone-whatsapp" aria-hidden="true"></i>
+        Peça pelo WhatsApp
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-texto">
+          <p class="hero-frase">Feito com carinho, para momentos especiais!</p>
+          <h1>Sabor que você <span>sente em</span> cada mordida!</h1>
+          <p>Esfihas, pizzas, pizzas brotinhos e pães de pizza fresquinhos, feitos com ingredientes selecionados e muito
+            amor.</p>
+          <a class="btn-whatsapp" href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer"><i
+              class="fa-brands fa-whatsapp icone-whatsapp" aria-hidden="true"></i>Peça pelo WhatsApp</a>
+        </div>
+        <div class="hero-art"></div>
+      </div>
+    </section>
+
+    <section class="produtos" id="cardapio">
+      <div class="container">
+        <p class="secao-tag">Nosso Cardápio</p>
+        <h2>Nossos Produtos</h2>
+        <div class="cards">
+          <article class="card">
+            <div class="card-img img-esfiha"></div>
+            <div class="card-corpo">
+              <h3>Esfirra</h3>
+              <p>Massa macia e recheio suculento. Vários sabores para você escolher.</p>
+              <strong>A partir de R$ 5,00</strong>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img img-pizza"></div>
+            <div class="card-corpo">
+              <h3>Pizza</h3>
+              <p>Pizzas deliciosas com ingredientes de qualidade e muito sabor.</p>
+              <strong>A partir de R$ 25,00</strong>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img img-brotinho"></div>
+            <div class="card-corpo">
+              <h3>Brotinho</h3>
+              <p>Perfeito para qualquer hora! Recheado e assado na medida certa.</p>
+              <strong>A partir de R$ 6,00</strong>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-img img-pao"></div>
+            <div class="card-corpo">
+              <h3>Pão de Pizza</h3>
+              <p>Massa fofinha com cobertura irresistível, uma delícia que todo mundo ama.</p>
+              <strong>A partir de R$ 7,00</strong>
+            </div>
+          </article>
+        </div>
+        <a class="btn-ver" href="paginas/cardapio.html">Ver todos os produtos</a>
+      </div>
+    </section>
+
+    <section class="diferenciais">
+      <div class="container">
+        <h2>Por que escolher a gente?</h2>
+        <div class="itens">
+          <article>
+            <h3>Ingredientes Selecionados</h3>
+            <p>Usamos apenas ingredientes frescos e de alta qualidade.</p>
+          </article>
+          <article>
+            <h3>Feito com Carinho</h3>
+            <p>Tudo preparado com muito amor e dedicação para você.</p>
+          </article>
+          <article>
+            <h3>Sempre Fresquinho</h3>
+            <p>Produção diária para garantir o melhor sabor.</p>
+          </article>
+          <article>
+            <h3>Clientes Satisfeitos</h3>
+            <p>A satisfação dos nossos clientes é nossa maior recompensa.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container rodape-grid">
+      <div>
+        <h3><i class="fa-brands fa-whatsapp icone-whatsapp" aria-hidden="true"></i>  WhatsApp</h3>
+        <p>(11) 99999-9999</p>
+      </div>
+      <div>
+        <h3>Retirada</h3>
+        <p>Avenida Nossa Senhora do Bom Conselho - 930F<br>Cabo de santo Agostinho - PE</p>
+      </div>
+      <a class="btn-whatsapp" href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-whatsapp icone-whatsapp" aria-hidden="true"></i>
+        Peça pelo WhatsApp
+      </a>
+    </div>
+  </footer>
+
+  <script src="javascript/menu.js"></script>
+</body>
+
+</html>
